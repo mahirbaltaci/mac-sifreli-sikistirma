@@ -1,0 +1,9 @@
+Parola korumalı dosya sıkıştırma: 
+zip -e (sıkıştırılmış dosya adı) (orijinal dosya adı)
+
+ “example.txt” adındaki bir dosyayı sıkıştırmaya çalışıyorsan, komut:
+zip -e example.zip example.txt
+
+Sıkıştırılmışı önizleme:
+bir zip dosyasının içeriğini açmadan kontrol edebilirsiniz.
+“zipinfo (File Name)” yazıp enter: dosya adlarını ve boyutlarını gösterir.
