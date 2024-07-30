@@ -1,9 +1,13 @@
-Parola korumalı dosya sıkıştırma: 
-zip -e (sıkıştırılmış dosya adı) (orijinal dosya adı)
+Mac,te terminal kullanarak parola korumalı dosya sıkıştırma işlemi nasıl yapılır?
 
- “example.txt” adındaki bir dosyayı sıkıştırmaya çalışıyorsan, komut:
-zip -e example.zip example.txt
+- Terminalde ilgili dosya path ine girilir.
 
-Sıkıştırılmışı önizleme:
-bir zip dosyasının içeriğini açmadan kontrol edebilirsiniz.
+- zip -e (sıkıştırılmış dosya adı) (orijinal dosya adı)
+
+- örnek: “example.txt” adındaki bir dosyayı sıkıştırmaya çalışıyorsan, komut şöyle olmalı: zip -e example.zip example.txt
+
+----
+
+ZIP önizlemesi / Bir zipi açmadan içeriğini kontrol edebilirsiniz (içinde ne var?):
+
 “zipinfo (File Name)” yazıp enter: dosya adlarını ve boyutlarını gösterir.
